@@ -1,0 +1,26 @@
+.friends {
+  max-width: 900px;
+}
+.friends__title {
+}
+
+.friends__subtitle {
+}
+
+.friends__tiktok-videos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__video {
+  max-height: 650px;
+}
+
+@media screen and (max-width: 900px) {
+  .friends__tiktok-videos{
+   flex-wrap: wrap;
+  }
+  .friends__video {
+    max-height: 350px;
+  }
+}

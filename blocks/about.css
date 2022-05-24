@@ -1,0 +1,20 @@
+.about {
+  font-family: 'Jeju Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  max-width: 890px;
+}
+.about__title {
+  text-align: left;
+}
+.about__subtitle {
+  text-align: left;
+}
+.about__text-content {
+  max-width: 443px; 
+}
+.about__image {
+  float: right;
+}
+

@@ -1,0 +1,73 @@
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header__content {
+  max-width: 764px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.header__title {
+  font-family: "Irish Grover", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 121px;
+  color: #fff;
+  margin: 0;
+}
+
+.header__span-title {
+  color: #fac659;
+}
+
+.header__subtitle {
+  color: #fff;
+  font-family: "Jeju Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 0;
+}
+
+.header__buttons {
+}
+
+.header__button {
+  font-family: "Jeju Gothic", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
+  color: #000;
+  border-radius: 0px 0px 10px 0px;
+  background-color: #8a7eee;
+  padding: 15px 52px;
+  cursor: pointer;
+  transition: background-color ease-out 0.4s;
+}
+
+.header__button:hover {
+  background-color: #fac659;
+}
+
+.header__button_color_yellow {
+  background-color: #fac659;
+  margin-right: 32px;
+}
+
+.header__button_color_yellow:hover {
+  background-color: #8a7eee;
+}
+
+@media screen and (max-width: 735px) {
+  .header__content {
+  margin-top: 100px;
+  padding: 0 15px;
+  }
+}

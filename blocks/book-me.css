@@ -1,0 +1,34 @@
+.book-me {
+  max-width: 1130px;
+}
+.book-me__content {
+  display: flex;
+  justify-content: space-between;
+}
+.book-me__wrap {
+  min-width: 400px; 
+}
+.book-me__info {
+  max-width: 443px;
+  font-family: 'Jeju Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+}
+.book-me__image {
+  max-width: 529px;
+  max-height: 705px;
+}
+@media screen and (max-width:1200px) {
+  .book-me__wrap{
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width:1020px) {
+  .book-me__image{
+    display: none;
+  }
+  .book-me {
+    max-width: 443px;
+  }
+}

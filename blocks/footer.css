@@ -1,0 +1,17 @@
+.footer {
+  margin: 130px auto 40px;
+  width: 142px;
+  
+}
+.footer__logos-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  cursor: pointer;
+}
+.footer__logo:hover {
+ cursor: pointer;
+}

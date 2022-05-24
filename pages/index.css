@@ -1,0 +1,10 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/body.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/section.css);
+@import url(../blocks/about.css);
+@import url(../blocks/friends.css);
+@import url(../blocks/book-me.css);
+@import url(../blocks/form.css);
+@import url(../blocks/footer.css);

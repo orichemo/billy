@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto 25px;
+}
+.nav__image {
+  margin: 0 20px;
+  max-width: 259px;
+  max-height: 259px;
+}
+.nav__link {
+  margin-top: 40px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  max-height: 40px;
+  cursor: pointer;
+  transition: background-color ease-out 0.4s;
+}
+.nav__link:hover {
+  background-color: #fac659;
+  border-radius: 0px 0px 10px 0px; 
+}
+
+@media screen and (max-width: 735px) {
+  .nav {
+    position: relative;
+    margin: 0;
+  }
+  .nav__image {
+    position: absolute;
+    top: -30px;
+    left: -100px;
+    margin: 0;
+  }
+}
