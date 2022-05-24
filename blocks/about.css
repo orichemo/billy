@@ -2,8 +2,9 @@
   font-family: 'Jeju Gothic', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 30px;
   max-width: 890px;
+  color: #D2D2D2;
 }
 .about__title {
   text-align: left;
@@ -12,7 +13,7 @@
   text-align: left;
 }
 .about__text-content {
-  max-width: 443px; 
+  max-width: 443px;
 }
 .about__image {
   float: right;
