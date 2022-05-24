@@ -13,8 +13,8 @@
   padding: 0 10px;
   text-decoration: none;
   color: #fff;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Jeju Gothic", sans-serif;
+
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -32,10 +32,13 @@
     position: relative;
     margin: 0;
   }
+  .nav__link {
+    display: none;
+  }
   .nav__image {
     position: absolute;
-    top: -30px;
-    left: -100px;
+    top: -50px;
+    left: -120px;
     margin: 0;
   }
 }

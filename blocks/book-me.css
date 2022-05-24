@@ -32,3 +32,12 @@
     max-width: 443px;
   }
 }
+@media screen and (max-width:550px) {
+  .book-me__wrap {
+    min-width: 300px;
+    padding: 0;
+  }
+  .book-me__info {
+   max-width: none;
+  }
+}

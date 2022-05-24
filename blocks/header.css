@@ -64,6 +64,13 @@
 .header__button_color_yellow:hover {
   background-color: #8a7eee;
 }
+@media screen and (max-width: 480px) {
+  .header__button {
+    border-radius: 50%;
+    max-width: 90px;
+    padding: 5px;
+  }
+}
 
 @media screen and (max-width: 735px) {
   .header__content {
