@@ -12,7 +12,7 @@
   margin-top: 40px;
   padding: 0 10px;
   text-decoration: none;
-  color: #fff;
+  color: #D2D2D2;
   font-family: "Jeju Gothic", sans-serif;
 
   font-weight: 400;
@@ -25,7 +25,7 @@
 .nav__link:hover {
   background-color: #fac659;
   border-radius: 0px 0px 10px 0px;
-  color: #000;
+  color: #0F0F0F;
 }
 
 @media screen and (max-width: 735px) {

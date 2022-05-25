@@ -2,6 +2,7 @@
   box-sizing: border-box;
   max-width: 474px;
   font-weight: 500;
+  font-family: "Jeju Gothic", sans-serif;
 }
 
 .form__fieldset {
@@ -26,6 +27,12 @@
   font-size: 20px;
   line-height: 22px;
   background-color: transparent;
+  color: #a5a4a4;
+}
+.form__input::placeholder {
+  font-family: "Jeju Gothic", sans-serif;
+  font-weight: 400;
+  color: #5d5b5b;
 }
 
 .form__textarea {
@@ -37,7 +44,13 @@
   font-size: 20px;
   line-height: 22px;
   background-color: transparent;
-  color: #838383;
+  color: #a5a4a4;
+}
+
+.form__textarea::placeholder {
+  font-family: "Jeju Gothic", sans-serif;
+  font-weight: 400;
+  color: #5d5b5b;
 }
 
 .form__button {
@@ -50,6 +63,7 @@
   background-color: #8a7eee;
   padding: 15px 52px;
   margin-top: 34px;
+  border: none;
   cursor: pointer;
   transition: background-color ease-out 0.4s;
 }
@@ -57,6 +71,8 @@
 .form__button:hover {
   background-color: #fac659;
 }
+
+
 
 @media screen and (max-width:520px) {
 .form {
@@ -69,4 +85,5 @@
 .form__textarea {
   width: 95%;
 }
+
 }

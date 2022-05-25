@@ -17,5 +17,7 @@
 }
 .about__image {
   float: right;
+  max-width: 443px;
+  width: 100%;
 }
 
