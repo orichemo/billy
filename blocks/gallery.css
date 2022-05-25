@@ -12,3 +12,11 @@
 .gallery__swiper-slide:hover {
   transform: translateY(10px);
 }
+
+@media screen and (max-width: 768px) {
+  .gallery__swiper-wrapper {
+    max-width: 1090px;
+    margin: 0 auto;
+    height: 583px;
+  }
+}

@@ -12,3 +12,8 @@
 @import url(../blocks/book-me.css);
 @import url(../blocks/form.css);
 @import url(../blocks/footer.css);
+
+/*adding smooth scrolling to entire page*/
+html {
+  scroll-behavior: smooth;
+}

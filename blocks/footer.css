@@ -16,4 +16,5 @@
 
 .footer__logo:hover {
   cursor: pointer;
+  opacity: 0.7;
 }

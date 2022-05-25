@@ -8,15 +8,16 @@
 }
 
 .book-me__wrap {
-  min-width: 400px; 
+  min-width: 400px;
 }
 
 .book-me__info {
   max-width: 443px;
-  font-family: 'Jeju Gothic', sans-serif;
+  font-family: "Jeju Gothic", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 26px;
+  margin: 0 0 30px;
 }
 
 .book-me__image {
@@ -24,27 +25,30 @@
   max-height: 705px;
 }
 
-@media screen and (max-width:1200px) {
-  .book-me__wrap{
+@media screen and (max-width: 1200px) {
+  .book-me__wrap {
     padding-left: 15px;
   }
 }
 
-@media screen and (max-width:1020px) {
-  .book-me__image{
-    display: none;
-  }
+@media screen and (max-width: 1020px) {
   .book-me {
     max-width: 443px;
   }
+  .book-me__image {
+    display: none;
+  }
+  .book-me__info {
+    text-align: center;
+  }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .book-me__wrap {
     min-width: 300px;
     padding: 0;
   }
   .book-me__info {
-   max-width: none;
+    max-width: none;
   }
 }

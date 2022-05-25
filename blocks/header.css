@@ -34,6 +34,7 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 33px;
+  padding-bottom: 30px;
   margin: 0;
 }
 
@@ -76,11 +77,15 @@
     margin-top: 140px;
     padding: 0 15px;
   }
+  .header__title {
+    font-size: 90px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .header__title {
-    font-size: 74px;
+    font-size: 70px;
     line-height: 1.2;
   }
   .header__subtitle {
@@ -88,5 +93,6 @@
   }
   .header__buttons {
     flex-direction: column;
+    gap: 20px;
   }
 }

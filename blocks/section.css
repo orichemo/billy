@@ -16,14 +16,21 @@
   font-family: "Jeju Gothic", sans-serif;
   font-weight: 400;
   color: #8a7eee;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 25px;
+  line-height: 29px;
   text-align: center;
-  margin: 25px 0 40px;
+  margin: 25px 0 65px;
 }
 
 @media screen and (max-width: 900px) {
   .section {
-    padding: 0 15px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__subtitle {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
