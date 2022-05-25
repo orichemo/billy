@@ -23,12 +23,12 @@ Amongst them are the following:
 [https://orichemo.github.io/billy/]
 
 
-### Team: Caffeinated Coders
+## Team: Caffeinated Coders
  
 Team consistst of the following developers:
- - Solomon Barayev
  - Ori Chemo
  - Timothy Horthe
+ - Solomon Barayev
 
  #### Team Takeaways:
 What we most enjoyed about this project was the ability to work together as a team to achieve the final desired result. We did so particularly with the help of GIT. While running into code conflicts was stressful at times, it gave us the opportunity to learn from a real-life experience.
