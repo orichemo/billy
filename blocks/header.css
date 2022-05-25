@@ -71,9 +71,9 @@
   background-color: #8a7eee;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 768px) {
   .header__content {
-  margin-top: 100px;
+  margin-top: 140px;
   padding: 0 15px;
   }
 }
@@ -81,6 +81,7 @@
 @media screen and (max-width: 480px) {
   .header__title {
     font-size: 74px;
+    line-height: 1.2;
   }
   .header__subtitle {
     font-size: 22px;

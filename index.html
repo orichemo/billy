@@ -1,217 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!-- add content -->
+    <meta name="keywords" content="" />
+    <!-- add content -->
+    <meta name="author" content="" />
+    <!-- add content -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <!-- add content -->
-  <meta name="keywords" content="" />
-  <!-- add content -->
-  <meta name="author" content="" />
-  <!-- add content -->
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="" />
+    <!-- add icon -->
+    <title>Billy the Goat</title>
+  </head>
 
-  <link rel="stylesheet" href="./pages/index.css" />
-  <link rel="icon" href="" />
-  <!-- add icon -->
-  <title>Billy the Goat</title>
-</head>
-
-
-
-<body class="body">
-
-
-  <header class="header">
-    <nav class="nav header__nav">
-      <a class="nav__link" href="#about">About</a>
-      <a class="nav__link" href="#gallery">Gallery</a>
-      <img class="nav__image" src="./images/Goat Wearing Sunglasses 1.png" alt="Goat Wearing Sunglasses" />
-      <a class="nav__link" href="#friends">Friends</a>
-      <a class="nav__link" href="#book-me">Book Me</a>
-    </nav>
-    <div class="header__content">
-      <h1 class="header__title">
-        Billy Is No <span class="header__span-title">Simple</span> Goat
-      </h1>
-      <p class="header__subtitle">
-        This Anglo-Nubian treasure is full of surprises
-      </p>
-      <div class="header__buttons">
-          <a class="header__button header__button_color_yellow" href="#about">About Billy</a>
+  <body class="body">
+    <header class="header">
+      <nav class="nav header__nav">
+        <div class="nav__links">
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#gallery">Gallery</a>
+        <img
+          class="nav__image"
+          src="./images/Goat Wearing Sunglasses 1.png"
+          alt="Goat Wearing Sunglasses"
+        />
+        <a class="nav__link" href="#friends">Friends</a>
+        <a class="nav__link" href="#book-me">Book Me</a>
+      </div>
+        <div class="nav__hmburger-button">
+          <span class="nav__bar nav__bar_rotate_plus"></span>
+          <span class="nav__bar nav__bar_opacity"></span>
+          <span class="nav__bar nav__bar_rotate_minus"></span>
+        </div>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title">
+          Billy Is No <span class="header__span-title">Simple</span> Goat
+        </h1>
+        <p class="header__subtitle">
+          This Anglo-Nubian treasure is full of surprises
+        </p>
+        <div class="header__buttons">
+          <a class="header__button header__button_color_yellow" href="#about"
+            >About Billy</a
+          >
           <a class="header__button" href="#book-me">Book Me</a>
+        </div>
       </div>
-    </div>
-  </header>
-  <main class="main">
-    <section class="section about" id="about">
-      <img class="about__image" src="./images/ABout-image.svg" alt="Goat with colorful background" />
-      <h2 class="about__title section__title">About Billy</h2>
-      <p class="about__subtitle section__subtitle">
-        It’s a goat thing... you wouldn’t understand
-      </p>
-      <p class="about__text-content">
-        With being an Anglo-Nubian, or simply Nubian, Billy is known for his
-        large size, long legs, and pendulous lop ears. He already weighs a
-        whopping 145 lbs! But, don’t mistake his sizable stature for being
-        rambunctious. Anglo-Nubians are known to be freindly, curious, and
-        docile animals, which makes them popular pets! It’s no suprise that
-        Billy is popular at birthday parties and Bar/Bat Mitzvahs! Even at the
-        rip age of nine, he’s still the life of the party! Lastly, but most
-        importantly, Anglo-Nubians are also renowned for their tasty milk!
-        Yum!
-      </p>
-    </section>
-    <section class="section gallery" id="gallery">
-      <h2 class="gallery__title section__title">Gallery</h2>
-      <p class="gallery__subtitle section__subtitle">
-        What’s a goat without its tea?...
-      </p>
+    </header>
+    <main class="main">
+      <section class="section about" id="about">
+        <img
+          class="about__image"
+          src="./images/ABout-image.svg"
+          alt="Goat with colorful background"
+        />
+        <h2 class="about__title section__title">About Billy</h2>
+        <p class="about__subtitle section__subtitle">
+          It’s a goat thing... you wouldn’t understand
+        </p>
+        <p class="about__text-content">
+          With being an Anglo-Nubian, or simply Nubian, Billy is known for his
+          large size, long legs, and pendulous lop ears. He already weighs a
+          whopping 145 lbs! But, don’t mistake his sizable stature for being
+          rambunctious. Anglo-Nubians are known to be freindly, curious, and
+          docile animals, which makes them popular pets! It’s no suprise that
+          Billy is popular at birthday parties and Bar/Bat Mitzvahs! Even at the
+          rip age of nine, he’s still the life of the party! Lastly, but most
+          importantly, Anglo-Nubians are also renowned for their tasty milk!
+          Yum!
+        </p>
+      </section>
+      <section class="section gallery" id="gallery">
+        <h2 class="gallery__title section__title">Gallery</h2>
+        <p class="gallery__subtitle section__subtitle">
+          What’s a goat without its tea?...
+        </p>
 
-
-      <!-- Gallery implemented with SwiperJS library -->
-      <div class="gallery__swiper-wrapper">
-        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-1.jpeg" />
+        <!-- Gallery implemented with SwiperJS library -->
+        <div class="gallery__swiper-wrapper">
+          <div
+            style="
+              --swiper-navigation-color: #fff;
+              --swiper-pagination-color: #fff;
+            "
+            class="swiper mySwiper2"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-1.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-2.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-3.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-4.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-5.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-6.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-7.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-8.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-9.jpeg" />
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-2.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-3.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-4.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-5.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-6.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-7.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-8.jpeg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-9.jpeg" />
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-1.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-2.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-3.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-4.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-5.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-6.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-7.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-8.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/gallery-images/goat-9.jpeg" />
+              </div>
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
-        <div thumbsSlider="" class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-1.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-2.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-3.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-4.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-5.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-6.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-7.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-8.jpeg" class="gallery__swiper-slide" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/gallery-images/goat-9.jpeg" class="gallery__swiper-slide" />
-            </div>
+      </section>
+
+      <section class="section friends" id="friends">
+        <h2 class="friends__title section__title">Friends</h2>
+        <p class="friends__subtitle section__subtitle">
+          Billy is a popular goat in the cyber-world. Meet his friends:
+        </p>
+        <div class="friends__tiktok-videos">
+          <blockquote
+            class="tiktok-embed friends__video"
+            cite="https://www.tiktok.com/@sadiethekid/video/7076201381979278597"
+            data-video-id="7076201381979278597"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@sadiethekid"
+                href="https://www.tiktok.com/@sadiethekid"
+                >@sadiethekid</a
+              >
+              <a
+                title="pygmygoat"
+                target="_blank"
+                href="https://www.tiktok.com/tag/pygmygoat"
+                >#pygmygoat</a
+              >
+              <a
+                title="fyp"
+                target="_blank"
+                href="https://www.tiktok.com/tag/fyp"
+                >#fyp</a
+              >
+              <a
+                title="northernireland"
+                target="_blank"
+                href="https://www.tiktok.com/tag/northernireland"
+                >#northernireland</a
+              >
+              <a
+                title="cutepets"
+                target="_blank"
+                href="https://www.tiktok.com/tag/cutepets"
+                >#cutepets</a
+              >
+              <a
+                title="glowup"
+                target="_blank"
+                href="https://www.tiktok.com/tag/glowup"
+                >#glowup</a
+              >
+              <a
+                target="_blank"
+                title="♬ slipping through my fingers - Jen"
+                href="https://www.tiktok.com/music/slipping-through-my-fingers-7068693979193608966"
+                >♬ slipping through my fingers - Jen</a
+              >
+            </section>
+          </blockquote>
+          <blockquote
+            class="tiktok-embed friends__video"
+            cite="https://www.tiktok.com/@mommyfarmer/video/7063094592689949998"
+            data-video-id="7063094592689949998"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@mommyfarmer"
+                href="https://www.tiktok.com/@mommyfarmer"
+                >@mommyfarmer</a
+              >
+              Here&#39;s to starting your morning like Ruthie
+              <a
+                title="wakingupinthemorning"
+                target="_blank"
+                href="https://www.tiktok.com/tag/wakingupinthemorning"
+                >#wakingupinthemorning</a
+              >
+              <a
+                title="babygoat"
+                target="_blank"
+                href="https://www.tiktok.com/tag/babygoat"
+                >#babygoat</a
+              >
+              <a
+                title="ruthie"
+                target="_blank"
+                href="https://www.tiktok.com/tag/ruthie"
+                >#ruthie</a
+              >
+              <a
+                title="goatsoftiktok"
+                target="_blank"
+                href="https://www.tiktok.com/tag/goatsoftiktok"
+                >#goatsoftiktok</a
+              >
+              <a
+                title="morningvibes"
+                target="_blank"
+                href="https://www.tiktok.com/tag/morningvibes"
+                >#morningvibes</a
+              >
+              <a
+                target="_blank"
+                title="♬ original sound - Rebecca Pyle"
+                href="https://www.tiktok.com/music/original-sound-7063094523802684206"
+                >♬ original sound - Rebecca Pyle</a
+              >
+            </section>
+          </blockquote>
+          <blockquote
+            class="tiktok-embed friends__video"
+            cite="https://www.tiktok.com/@rachelsam/video/7076984081514269994"
+            data-video-id="7076984081514269994"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@rachelsam"
+                href="https://www.tiktok.com/@rachelsam"
+                >@rachelsam</a
+              >
+              The Real World: Goat Herd Edition 🐐
+              <a
+                title="fyp"
+                target="_blank"
+                href="https://www.tiktok.com/tag/fyp"
+                >#fyp</a
+              >
+              <a
+                title="goats"
+                target="_blank"
+                href="https://www.tiktok.com/tag/goats"
+                >#goats</a
+              >
+              <a
+                title="goatsoftiktok"
+                target="_blank"
+                href="https://www.tiktok.com/tag/goatsoftiktok"
+                >#goatsoftiktok</a
+              >
+              <a
+                title="viral"
+                target="_blank"
+                href="https://www.tiktok.com/tag/viral"
+                >#viral</a
+              >
+              <a
+                title="funny"
+                target="_blank"
+                href="https://www.tiktok.com/tag/funny"
+                >#funny</a
+              >
+              <a
+                title="farmlife"
+                target="_blank"
+                href="https://www.tiktok.com/tag/farmlife"
+                >#farmlife</a
+              >
+              <a
+                title="austintx"
+                target="_blank"
+                href="https://www.tiktok.com/tag/austintx"
+                >#austintx</a
+              >
+              <a
+                title="goatherding"
+                target="_blank"
+                href="https://www.tiktok.com/tag/goatherding"
+                >#goatherding</a
+              >
+              <a
+                title="babygoat"
+                target="_blank"
+                href="https://www.tiktok.com/tag/babygoat"
+                >#babygoat</a
+              >
+              <a
+                target="_blank"
+                title="♬ original sound - Rachel 🌷"
+                href="https://www.tiktok.com/music/original-sound-7076984063642422062"
+                >♬ original sound - Rachel 🌷</a
+              >
+            </section>
+          </blockquote>
+          <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+      </section>
+
+      <section class="section book-me" id="book-me">
+        <h2 class="book-me__title section__title">Book Billy</h2>
+        <p class="book-me__subtitle section__subtitle">
+          Spruce up your next party with a visit from Billy the Goat!
+        </p>
+        <div class="book-me__content">
+          <div class="book-me__wrap">
+            <p class="book-me__info">
+              Birthdays, Weddings, Bar/Bat Mitzvahs, Sweet 16’s, etc. You name
+              it, Billy will do it!
+            </p>
+            <form class="book_me__form form" action="submit">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  placeholder="John Doe"
+                  required
+                />
+                <label for="event-type" class="form__label">Event Type</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  id="event-type"
+                  name="event-type"
+                  placeholder="Birthday Party"
+                  required
+                />
+                <label for="massage" class="form__label">Massage</label>
+                <textarea
+                  class="form__textarea"
+                  placeholder="I want Billy wearing 17 chains!"
+                  name="massage"
+                  rows="12"
+                  cols="50"
+                ></textarea>
+                <button type="submit" class="form__button">Book Me</button>
+              </fieldset>
+            </form>
           </div>
+          <img
+            class="book-me__image"
+            src="./images/party-goat.png"
+            alt="White gout with a hat"
+          />
         </div>
-
-
-
-      </div>
-    </section>
-
-    <section class="section friends" id="friends">
-      <h2 class="friends__title section__title">Friends</h2>
-      <p class="friends__subtitle section__subtitle">
-        Billy is a popular goat in the cyber-world. Meet his friends:
-      </p>
-      <div class="friends__tiktok-videos">
-        <blockquote class="tiktok-embed friends__video"
-          cite="https://www.tiktok.com/@sadiethekid/video/7076201381979278597" data-video-id="7076201381979278597">
-          <section></section>
-        </blockquote>
-        <blockquote class="tiktok-embed friends__video"
-          cite="https://www.tiktok.com/@mommyfarmer/video/7063094592689949998" data-video-id="7063094592689949998">
-          <section></section>
-        </blockquote>
-        <blockquote class="tiktok-embed friends__video"
-          cite="https://www.tiktok.com/@rachelsam/video/7076984081514269994" data-video-id="7076984081514269994">
-          <section></section>
-        </blockquote>
-        <script async src="https://www.tiktok.com/embed.js"></script>
-      </div>
-    </section>
-
-
-
-
-    <section class="section book-me" id="book-me">
-      <h2 class="book-me__title section__title">Book Billy</h2>
-      <p class="book-me__subtitle section__subtitle">
-        Spruce up your next party with a visit from Billy the Goat!
-      </p>
-      <div class="book-me__content">
-        <div class="book-me__wrap">
-          <p class="book-me__info">
-            Birthdays, Weddings, Bar/Bat Mitzvahs, Sweet 16’s, etc. You name
-            it, Billy will do it!
-          </p>
-          <form class="book_me__form form" action="submit">
-            <fieldset class="form__fieldset">
-              <label for="name" class="form__label">Name</label>
-              <input type="text" class="form__input" id="name" name="name" placeholder="John Doe" required />
-              <label for="event-type" class="form__label">Event Type</label>
-              <input type="text" class="form__input" id="event-type" name="event-type" placeholder="Birthday Party"
-                required />
-              <label for="massage" class="form__label">Massage</label>
-              <textarea class="form__textarea" placeholder="I want Billy wearing 17 chains!" name="massage" rows="12" cols="50">
-</textarea>
-              <button type="submit" class="form__button">Book Me</button>
-            </fieldset>
-          </form>
-        </div>
-        <img class="book-me__image" src="./images/party-goat.png" alt="White gout with a hat" />
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <ul class="footer__logos-list">
-      <li class="footer__logo">
-        <a href="#"><img src="./images/facebook 2.svg" alt="facebook logo with white background" /></a>
-      </li>
-      <li class="footer__logo">
-        <a href="#"><img src="./images/instagram 2.svg" alt="instagram logo with white background" /></a>
-      </li>
-      <li class="footer__logo">
-        <a href="#"><img src="./images/tiktok 2.svg" alt="tiktok logo with white background" /></a>
-      </li>
-    </ul>
-  </footer>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./scripts/swiper.js"></script>
-</body>
-
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__logos-list">
+        <li class="footer__logo">
+          <a href="#"
+            ><img
+              src="./images/facebook 2.svg"
+              alt="facebook logo with white background"
+          /></a>
+        </li>
+        <li class="footer__logo">
+          <a href="#"
+            ><img
+              src="./images/instagram 2.svg"
+              alt="instagram logo with white background"
+          /></a>
+        </li>
+        <li class="footer__logo">
+          <a href="#"
+            ><img
+              src="./images/tiktok 2.svg"
+              alt="tiktok logo with white background"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/swiper.js"></script>
+  </body>
 </html>
