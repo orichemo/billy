@@ -1,11 +1,6 @@
 .friends {
   max-width: 1090px;
 }
-.friends__title {
-}
-
-.friends__subtitle {
-}
 
 .friends__tiktok-videos {
   display: flex;
@@ -15,24 +10,12 @@
 
 .friends__video {
   max-height: 561px;
-  /* height: 400px; */
   max-width: 325px;
   border-radius: 10px;
-}
-
-.friends__iframe {
-  /* width: 100%; */
-  /* height: 725px; */
-  /* display: block;
-  visibility: unset;
-  max-height: 725px; */
 }
 
 @media screen and (max-width: 900px) {
   .friends__tiktok-videos {
     flex-wrap: wrap;
-  }
-  .friends__video {
-    /* max-height: 350px; */
   }
 }

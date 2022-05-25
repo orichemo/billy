@@ -1,22 +1,25 @@
 .nav {
   display: flex;
 }
+
 .nav__links {
   display: flex;
   justify-content: space-around;
   width: 85%;
   margin: 40px auto 25px;
 }
+
 .nav__image {
   margin: 0 20px;
   max-width: 259px;
   max-height: 259px;
 }
+
 .nav__link {
   margin-top: 40px;
   padding: 0 10px;
   text-decoration: none;
-  color: #D2D2D2;
+  color: #d2d2d2;
   font-family: "Jeju Gothic", sans-serif;
   font-weight: 400;
   font-size: 25px;
@@ -25,11 +28,13 @@
   cursor: pointer;
   transition: background-color ease-out 0.4s;
 }
+
 .nav__link:hover {
   background-color: #fac659;
   border-radius: 0px 0px 10px 0px;
-  color: #0F0F0F;
+  color: #0f0f0f;
 }
+
 .nav__hmburger-button {
   max-height: 40px;
   margin-top: 80px;
@@ -37,6 +42,7 @@
   cursor: pointer;
   display: none;
 }
+
 .nav__bar {
   display: block;
   border-bottom: 3px solid aliceblue;
@@ -56,15 +62,16 @@
     flex-direction: column-reverse;
     gap: 0;
     width: 100%;
-    background-color: #0F0F0F;
-    }
+    background-color: #0f0f0f;
+    z-index: 100000;
+  }
   .nav__links {
     display: none;
   }
   .nav__links_active {
     display: flex;
     flex-direction: column;
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     gap: 0;
     margin: 0;
     transition: 0.3s;
@@ -76,9 +83,6 @@
     padding: 15px;
     text-align: center;
   }
-  .nav__link:hover {
-    background-color: transparent;
-  }
   .nav__image {
     display: none;
   }
@@ -86,7 +90,7 @@
     display: block;
     align-self: flex-end;
   }
-  .nav__bar_rotate_plus_active{
+  .nav__bar_rotate_plus_active {
     transform: translateY(10px) rotate(45deg);
   }
   .nav__bar_opacity_active {

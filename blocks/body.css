@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-  @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
-  @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
-  
 .body {
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;

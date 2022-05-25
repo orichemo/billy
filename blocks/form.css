@@ -28,11 +28,18 @@
   line-height: 22px;
   background-color: transparent;
   color: #a5a4a4;
+  box-sizing: border-box;
 }
+
 .form__input::placeholder {
   font-family: "Jeju Gothic", sans-serif;
   font-weight: 400;
   color: #5d5b5b;
+}
+
+.form__input:focus {
+  outline: 3px solid #8a7eee;
+  border: none;
 }
 
 .form__textarea {
@@ -45,6 +52,12 @@
   line-height: 22px;
   background-color: transparent;
   color: #a5a4a4;
+  box-sizing: border-box;
+}
+
+.form__textarea:focus {
+  outline: 3px solid #8a7eee;
+  border: none;
 }
 
 .form__textarea::placeholder {
@@ -72,8 +85,6 @@
   background-color: #fac659;
 }
 
-
-
 @media screen and (max-width:520px) {
 .form {
   max-width: 100%;
@@ -85,5 +96,4 @@
 .form__textarea {
   width: 95%;
 }
-
 }
