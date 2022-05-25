@@ -1,14 +1,10 @@
 .book-me {
-  max-width: 1130px;
+  max-width: 1090px;
 }
 
 .book-me__content {
   display: flex;
   justify-content: space-between;
-}
-
-.book-me__wrap {
-  min-width: 400px;
 }
 
 .book-me__info {
@@ -27,7 +23,7 @@
 
 @media screen and (max-width: 1200px) {
   .book-me__wrap {
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
 }
 
@@ -45,7 +41,8 @@
 
 @media screen and (max-width: 550px) {
   .book-me__wrap {
-    min-width: 300px;
+    min-width: none;
+    /* max-width: 300px; */
     padding: 0;
   }
   .book-me__info {
