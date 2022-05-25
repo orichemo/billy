@@ -3,3 +3,12 @@
   margin: 0 auto;
   height: 783px;
 }
+
+.gallery__swiper-slide {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.gallery__swiper-slide:hover {
+  transform: translateY(10px);
+}
